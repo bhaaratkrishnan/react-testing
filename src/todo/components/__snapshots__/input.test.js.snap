@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="input-container"
+  >
+    <input
+      class="new-todo"
+      data-testid="text-input"
+      id="todo-input"
+      type="text"
+      value=""
+    />
+    <label
+      class="visually-hidden"
+      for="todo-input"
+    />
+  </div>
+</DocumentFragment>
+`;

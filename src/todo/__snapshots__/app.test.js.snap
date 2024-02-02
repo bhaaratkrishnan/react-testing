@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="header"
+    data-testid="header"
+  >
+    <h1>
+      todos
+    </h1>
+    <div
+      class="input-container"
+    >
+      <input
+        class="new-todo"
+        data-testid="text-input"
+        id="todo-input"
+        placeholder="What needs to be done?"
+        type="text"
+        value=""
+      />
+      <label
+        class="visually-hidden"
+        for="todo-input"
+      >
+        New Todo Input
+      </label>
+    </div>
+  </header>
+  <main
+    class="main"
+    data-testid="main"
+  >
+    <ul
+      class="todo-list"
+      data-testid="todo-list"
+    />
+  </main>
+</DocumentFragment>
+`;

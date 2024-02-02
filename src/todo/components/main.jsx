@@ -28,7 +28,7 @@ export function Main({ todos, dispatch }) {
     return (
         <main className="main" data-testid="main">
             {visibleTodos.length > 0 ? (
-                <div className="toggle-all-container">
+                <div className="toggle-all-container" data-testid="toggle-all-button">
                     <input className="toggle-all" type="checkbox" data-testid="toggle-all" checked={visibleTodos.every((todo) => todo.completed)} onChange={toggleAll} />
                     <label className="toggle-all-label" htmlFor="toggle-all">
                         Toggle All Input
